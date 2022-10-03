@@ -3,25 +3,6 @@
 
 //[3 7 22 2 78] -> 76
 
-// Console.WriteLine("Введите длинну массива: ");
-// string n = Console.ReadLine();
-// int n1 = Convert.ToInt32(n);
-
-// double[] Array = new double[n1];
-// double max = 0;
-// double min = 0;
-// for (int i = 0; i < Array.Length; i++)
-// {
-//     Array[i] = new Random().NextDouble() * n1;
-// }
-// if (Array[i] > max)
-//     {
-//         max = Array[i];
-//     }
-//     if (Array[i] < min)
-//     {
-//         min = Array[i];
-//     }
 Console.WriteLine("Введите длинну массива: ");
 
 string n = Console.ReadLine();
@@ -55,9 +36,13 @@ for (int i = 0; i < Array.Length; i++)
 }
 
 Console.WriteLine(String.Join(",  ", Array));
+Console.WriteLine("Максимальное значение: ");
 Console.WriteLine(max);
+Console.WriteLine();
+Console.WriteLine("Минимальное значение: ");
 Console.WriteLine(min);
 Console.WriteLine();
+Console.WriteLine("Разница между максимальным и минимальным значением: ");
 Console.WriteLine(max - min);
 
 
