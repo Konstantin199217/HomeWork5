@@ -17,8 +17,6 @@ int[] NewArray(int size)
     }
     return Array;
 }
-
-
 int[] Array = NewArray(ReadData("Введите длинну массива: "));
 
 Console.WriteLine(String.Join(",", Array));
